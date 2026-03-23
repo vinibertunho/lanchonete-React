@@ -1,16 +1,105 @@
-# React + Vite
+Entendi perfeitamente! Se você está usando React "normal" (Vite, Webpack ou Create React App) para web, o foco do README deve ser a experiência no navegador e a estrutura de componentes web.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aqui está uma versão do README.md com um visual premium, usando ícones, blocos de código bem definidos e uma estrutura que brilha no perfil do GitHub:
 
-Currently, two official plugins are available:
+Markdown
+# 🍔 Lanchonete React | Digital Receipt System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS--Modules-000000?style=for-the-badge&logo=cssmodules&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📝 Sobre o Projeto
+Este é um sistema de **comanda digital** desenvolvido para navegadores. O projeto foca em transformar dados complexos de pedidos em um recibo visualmente limpo, processando cálculos de impostos e taxas de serviço em tempo real no lado do cliente.
 
-## Expanding the ESLint configuration
+> **Diferencial:** O layout utiliza fontes monoespaçadas e bordas tracejadas para replicar com fidelidade um cupom fiscal de impressora térmica, mas com o poder da responsividade web.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Funcionalidades Principais
+
+| Recurso | Descrição |
+| :--- | :--- |
+| **Cálculo Dinâmico** | Processa Subtotal e Total automaticamente ao receber os dados. |
+| **Service Tax (10%)** | Implementação de lógica de taxa de serviço sobre o consumo. |
+| **Responsive Design** | 100% amigável para celulares e tablets usando unidades `rem`. |
+| **CSS Scoped** | Estilização isolada que evita vazamento de design entre componentes. |
+
+---
+
+## 🛠️ Arquitetura de Dados
+
+O componente `Comanda` é alimentado por uma estrutura de dados simples e eficiente:
+
+```javascript
+// Exemplo de Objeto de Pedido
+{
+  id: number,
+  nome: string,
+  precoUnitario: number,
+  quantidade: number
+}
+🧠 Regras de Negócio Aplicadas
+O sistema executa as seguintes operações matemáticas:
+
+Consumo: Σ (preco * qtd)
+
+Serviço: Consumo * 0.10
+
+Total Líquido: Consumo + Serviço
+
+🎨 Visual & UI
+O design foi projetado para ser limpo e focado:
+
+Tipografia: Courier New (Estilo clássico de recibo).
+
+Esquema de Cores:
+
+Preto (#333): Leitura principal.
+
+Verde (#27ae60): Destaque positivo no valor total.
+
+Cinza (#ccc): Divisórias sutis para organização visual.
+
+⚙️ Como Executar
+Pré-requisitos
+Node.js instalado
+
+Gerenciador de pacotes (NPM ou Yarn)
+
+Passo a Passo
+Bash
+# 1. Clone o repositório
+git clone [https://github.com/seu-usuario/nome-do-projeto.git](https://github.com/seu-usuario/nome-do-projeto.git)
+
+# 2. Acesse a pasta
+cd nome-do-projeto
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor local
+npm run dev
+📱 Mobile Preview
+O projeto foi otimizado para telas pequenas, garantindo que o texto não quebre e os preços fiquem sempre alinhados à direita, facilitando a conferência do cliente no smartphone.
+
+<p align="center">
+Feito com 🥤 e 💻 por <strong>[Vinicius Bertunho]</strong>
+</p>
+
+
+-----
+
+### Por que esse README é melhor para o GitHub?
+
+1.  **Badges do Vite:** Como é React "normal", usei a badge do Vite, que é o padrão atual (muito mais rápido que o antigo Create React App).
+2.  **Seção de Arquitetura:** Explicar como os dados entram e como os cálculos são feitos mostra que você domina a lógica, não só o visual.
+3.  **Tabela de Recursos:** Recrutadores adoram tabelas porque batem o olho e já sabem o que o projeto faz.
+4.  **Markdown Limpo:** Sem poluição visual, facilitando a leitura tanto no modo claro quanto no modo escuro do GitHub.
+
+Para salvar, basta criar um arquivo chamado `README.md` na raiz do seu projeto e colar esse conteúd
