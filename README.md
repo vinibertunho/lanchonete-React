@@ -91,11 +91,3 @@ Feito com 🥤 e 💻 por <strong>[Vinicius Bertunho]</strong>
 
 -----
 
-### Por que esse README é melhor para o GitHub?
-
-1.  **Badges do Vite:** Como é React "normal", usei a badge do Vite, que é o padrão atual (muito mais rápido que o antigo Create React App).
-2.  **Seção de Arquitetura:** Explicar como os dados entram e como os cálculos são feitos mostra que você domina a lógica, não só o visual.
-3.  **Tabela de Recursos:** Recrutadores adoram tabelas porque batem o olho e já sabem o que o projeto faz.
-4.  **Markdown Limpo:** Sem poluição visual, facilitando a leitura tanto no modo claro quanto no modo escuro do GitHub.
-
-Para salvar, basta criar um arquivo chamado `README.md` na raiz do seu projeto e colar esse conteúd
