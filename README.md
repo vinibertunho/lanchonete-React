@@ -1,8 +1,4 @@
-Entendi perfeitamente! Se você está usando React "normal" (Vite, Webpack ou Create React App) para web, o foco do README deve ser a experiência no navegador e a estrutura de componentes web.
 
-Aqui está uma versão do README.md com um visual premium, usando ícones, blocos de código bem definidos e uma estrutura que brilha no perfil do GitHub:
-
-Markdown
 # 🍔 Lanchonete React | Digital Receipt System
 
 <p align="center">
